@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { ModalEscritos } from "./ui/ModalEscritos";
+import { ModalEscritos } from "./ModalEscritos";
 
 interface Props {
   title: string;

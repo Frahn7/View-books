@@ -1,6 +1,6 @@
 "use client";
 
-import { CardEscritos } from "../components/CardEscritos";
+import { CardEscritos } from "../components/ui/CardEscritos";
 
 export default function Escritos() {
   return (
