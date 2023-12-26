@@ -20,7 +20,7 @@ export default function Recuperar() {
       <div className=" mt-20  flex justify-center ">
         <div className="text-white text-center">
           <h1 className="flex justify-center py-3 text-2xl font-bold pb-10">
-            Recuperar contraseña!
+            Recuperar contraseña
           </h1>
           <div className="w-full flex justify-center">
             <form className="bg-zinc-800 shadow-md rounded px-8 pt-6 pb-8 mb-4">

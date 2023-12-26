@@ -1,5 +1,5 @@
-import { BotonLibros } from "../components/ui/botonLibros";
-import { Campo } from "../components/ui/campo";
+import { BotonLibros } from "../components/ui/BotonLibros";
+import { Campo } from "../components/ui/Campo";
 
 export default function Perfil() {
   return (
@@ -16,11 +16,17 @@ export default function Perfil() {
           <Campo TitleLabel="Nombre" />
           <Campo TitleLabel="Gmail" />
           <div className="flex flex-row justify-center">
-            <BotonLibros name="Libros leidos" mostrar={true} />
-            <BotonLibros name="Libros escritos" mostrar={true} />
+            <a href="/escritos">
+              <BotonLibros name="Libros escritos" mostrar={true} />
+            </a>
+            <a href="/leidos">
+              <BotonLibros name="Libros leidos" mostrar={true} />
+            </a>
           </div>
           <div className="flex justify-center">
-            <BotonLibros name="Explorar" mostrar={false} next={true} />
+            <a href="/more">
+              <BotonLibros name="Explorar" mostrar={false} next={true} />
+            </a>
           </div>
         </div>
       </div>
